@@ -1,0 +1,15 @@
+{
+   "manifest_version": 3,
+   "name": "URL Password Protector",
+   "version": "1.0",
+   "permissions": ["storage", "scripting", "activeTab", "tabs"],
+   "host_permissions": ["<all_urls>"],
+   "content_scripts": [
+     {
+       "matches": ["<all_urls>"],
+       "js": ["main.js"],
+       "run_at": "document_start"
+     }
+   ]
+ }
+ 

@@ -1,0 +1,18 @@
+{
+    "name": "YouTube Premium",
+    "description": "YouTube rebrands to Premium",
+    "version": "2.3",
+    "manifest_version": 3,
+    "content_scripts":[
+        {
+            "matches":["<all_urls>"],
+            "css":["main.css"]
+        }
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": ["images/logo.svg"],
+        "matches": ["*://*.youtube.com/*"]
+      }
+   ]
+}

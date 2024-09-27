@@ -1,0 +1,21 @@
+
+yt-icon.ytd-logo {
+   width: 100px !important;
+}
+yt-icon.ytd-logo .yt-spec-icon-shape div {
+   background-image: url('chrome-extension://iekjnnfldafnpdjemnalpefopokibkdo/images/logo.svg') !important;
+   background-size: auto 20px !important; 
+   background-repeat: no-repeat;
+ }
+.external-icon {
+   display: none !important;
+   appearance: none !important;
+   opacity: 0 !important;
+   pointer-events: none !important;
+ }
+ #yt-logo-updated-svg_yt8 {
+   display: none !important;
+   appearance: none !important;
+   opacity: 0 !important;
+   pointer-events: none !important;
+ }
